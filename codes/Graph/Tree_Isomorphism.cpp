@@ -1,11 +1,11 @@
 /*
-Tested : https://cses.fi/paste/b7954f004cf15c4c11d70c4/
+Tested : https://cses.fi/paste/f9b5a94b6e9f6f3711da20f/
 Author : niter
 */
 // Please change "mul" to a random number (> N) before submit
 struct Tree_Hash { // 1-based
     using T = __int128;
-    const T mod = (T)(1e18 + 3), mul = 435216;
+    const T mod = (T)(1e18) + 3, mul = 435216;
     vector<vector<int>> E;
     Tree_Hash(int _n) : E(_n + 1) {}
     void add_edge(int u, int v) {
